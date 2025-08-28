@@ -1,0 +1,48 @@
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #1f2937;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.125rem;
+  margin-top: 20px;
+}
+
+.loading {
+  color: #2563eb;
+}
+
+.error {
+  color: #dc2626;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.noTasks {
+  font-size: 2rem;
+  color: #555;
+  text-align: center;
+  margin: 40px 0;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
